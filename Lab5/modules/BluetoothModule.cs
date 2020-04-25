@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Lab5.modules
 {
+    /// <summary>
+    /// Класс, реализующий Bluetooth модуль
+    /// </summary>
     public class BluetoothModule : ModuleVisitor
     {
         public void visitPlatform(AndroidPlatform platform)

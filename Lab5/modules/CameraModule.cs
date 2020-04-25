@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Lab5.modules
 {
+    /// <summary>
+    /// Класс, реализующий модуль камеры
+    /// </summary>
     public class CameraModule : ModuleVisitor
     {
         public void visitPlatform(AndroidPlatform platform)

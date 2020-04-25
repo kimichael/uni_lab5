@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Lab5.modules
 {
+    /// <summary>
+    /// Класс, реализующий WiFi модуль
+    /// </summary>
     public class WiFiModule : ModuleVisitor
     {
         public void visitPlatform(AndroidPlatform platform)

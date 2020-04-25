@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Lab5.modules
 {
+    /// <summary>
+    /// Класс, реализующий модуль, отвечающий за нейронные сети
+    /// </summary>
     public class NeuralNetworkModule : ModuleVisitor
     {
         public void visitPlatform(AndroidPlatform platform)

@@ -3,6 +3,9 @@ using Lab5.modules;
 
 namespace Lab5
 {
+    /// <summary>
+    /// Класс, реализующий платформу Android
+    /// </summary>
     public class AndroidPlatform : Platform
     {
         public string getName() {

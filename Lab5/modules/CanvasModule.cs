@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Lab5.modules
 {
+    /// <summary>
+    /// Класс, реализующий модуль отрисовки
+    /// </summary>
     public class CanvasModule : ModuleVisitor
     {
         public void visitPlatform(AndroidPlatform platform)

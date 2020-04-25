@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Lab5.modules
 {
+    /// <summary>
+    /// Класс, реализующий модуль дисковода
+    /// </summary>
     public class CDDriveModule : ModuleVisitor
     {
         public void visitPlatform(AndroidPlatform platform)

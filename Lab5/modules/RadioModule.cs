@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Lab5.modules
 {
+    /// <summary>
+    /// Класс, реализующий радио модуль
+    /// </summary>
     public class RadioModule : ModuleVisitor
     {
         public void visitPlatform(AndroidPlatform platform)

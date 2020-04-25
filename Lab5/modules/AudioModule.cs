@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Lab5.modules
 {
+    /// <summary>
+    /// Класс, реализующий аудио модуль
+    /// </summary>
     public class AudioModule : ModuleVisitor
     {
         public void visitPlatform(AndroidPlatform platform)

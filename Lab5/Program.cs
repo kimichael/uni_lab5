@@ -3,10 +3,19 @@ using Lab5.modules;
 
 namespace Lab5
 {
+    /// <summary>
+    /// Класс, отвечающий за пятую лабораторную работу по ТРПО
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Точка входа для приложения
+        /// </summary>
+        /// <param name="args">Список аргументов командной строки</param>
         static void Main(string[] args)
         {
+
+            // Для начала выбираем платформу, на которой будем работать
             Console.WriteLine("Choose your platform\n" +
                 "1. Android\n" +
                 "2. IOS\n" +
@@ -40,6 +49,7 @@ namespace Lab5
 
             Console.WriteLine($"\nYou chose {platform.getName()}");
 
+            // Теперь выбираем нужный модуль
             Console.WriteLine("Choose module\n" +
                 "1. CanvasModule\n" +
                 "2. RadioModule\n" +
